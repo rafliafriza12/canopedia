@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar/Index";
 import HeroBackground from "@/components/svg/HeroBackground";
 import GridBackground from "@/components/svg/GridBackground";
 import DotBackground from "@/components/svg/DotBackground";
+import Footer from "@/components/footer/Index";
 const WebLayout: React.FC<WebLayoutProps> = ({ children }) => {
   return (
     <div className="w-screen flex flex-col relative z-0 overflow-x-hidden gap-7 pt-10 items-center bg-[#255245] text-[#ECF9CB]">
@@ -18,6 +19,7 @@ const WebLayout: React.FC<WebLayoutProps> = ({ children }) => {
       </div>
 
       {children}
+      <Footer />
     </div>
   );
 };

@@ -8,6 +8,7 @@ import Catalog from "@/components/sections/catalog/Index";
 import Sponsor from "@/components/sections/sponsor/Index";
 import Planting from "@/components/sections/planting/Index";
 import Monitoring from "@/components/sections/monitoring/Index";
+import Contact from "@/components/sections/contact/Index";
 const HomePage: React.FC = () => {
   return (
     <div className="w-full px-28 pb-10 flex flex-col items-center gap-7 pt-[110px] relative z-0">
@@ -58,6 +59,7 @@ const HomePage: React.FC = () => {
       <Sponsor />
       <Planting />
       <Monitoring />
+      <Contact />
     </div>
   );
 };

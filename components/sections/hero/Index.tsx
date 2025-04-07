@@ -24,30 +24,30 @@ const HeroSection: React.FC = () => {
       <HeroSVG />
 
       <div className="w-[234px] absolute top-[25%] left-[5%]">
-        <h1 className=" w-full text-left font-quintessential font-light">
+        <h1 className=" w-full text-left font-montserrat font-light">
           Melestarikan kekayaan genetik pohon nusantara untuk generasi masa
           depan.
         </h1>
       </div>
       <div className="w-[234px] absolute top-[28%] right-[5%]">
-        <h1 className=" w-full text-right font-quintessential font-light">
+        <h1 className=" w-full text-right font-montserrat font-light">
           Lindungi akar masa depan kita melalui konservasi dan digitalisasi.
         </h1>
       </div>
       <div className="w-[234px] absolute top-[20%] ">
-        <h1 className=" w-full text-center font-quintessential font-light">
+        <h1 className=" w-full text-center font-montserrat font-light">
           Melindungi akar kehidupan Indonesia, merawat napas bumi untuk anak
           cucu kita.
         </h1>
       </div>
       <div className="w-[254px] absolute bottom-[17%] left-[15%]">
-        <h1 className=" w-full text-left font-quintessential font-light">
+        <h1 className=" w-full text-left font-montserrat font-light">
           Mengabadikan warisan genetik hutan Indonesia melalui katalogisasi
           digital.
         </h1>
       </div>
       <div className="w-[284px] absolute bottom-[17%] right-[10%]">
-        <h1 className=" w-full text-right font-quintessential font-light">
+        <h1 className=" w-full text-right font-montserrat font-light">
           Inovasi digital untuk menjaga keberlanjutan genetik hutan tropis
           nusantara.
         </h1>
