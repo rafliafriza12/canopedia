@@ -1,3 +1,4 @@
+"use client";
 import HeroSection from "@/components/sections/hero/Index";
 import Info from "@/components/sections/info/Index";
 import ShopSVG from "@/components/svg/ShopSVG";
