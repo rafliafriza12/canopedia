@@ -1,0 +1,37 @@
+/* components/footer/styles.module.css */
+
+.footer {
+    background-color: #d9ead3; /* Light green background */
+    padding: 2rem 0;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .leftSection,
+  .rightSection {
+    width: 45%;
+  }
+  
+  .leftSection h3,
+  .rightSection h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .leftSection p,
+  .rightSection p {
+    margin: 0.5rem 0;
+    color: #333;
+  }
+  
+  .bottomBar {
+    background-color: #aebc9f; /* Darker green bottom bar */
+    height: 40px;
+  }
