@@ -1,9 +1,4 @@
-import Image from "next/image";
-import Footer from "@/components/footer/Index";
+import HomePage from "@/components/pages/home/Index";
 export default function Home() {
-  return (
-    <div>
-      <Footer/>
-    </div>
-  );
+  return <HomePage />;
 }

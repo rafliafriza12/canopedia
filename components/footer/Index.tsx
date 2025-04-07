@@ -1,37 +1,37 @@
 // components/footer/footer.tsx
 
-import styles from './styles.module.css';
+import React from "react";
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
-      <div className={styles.container}>
+    <footer className="bg-[#ECF9CB] w-screen rounded-b-lg pt-20 font-poppins">
+      <div className="w-full grid grid-cols-2 grid-rows-1 pl-[5%]">
         {/* Left Section */}
-        <div className={styles.leftSection}>
-          <h3>About.</h3>
-          <p>Lorem</p>
-          <p>Lorem.</p>
-          <p>Lorem.</p>
+        <div className="w-full"> 
+          <h3 className="text-[#255245] text-[26px] font-bold mb-4">About.</h3>
+          <p className="text-gray-600 mb-3">Katalog</p>
+          <p className="text-gray-600 mb-3">Bank Biji</p>
+          <p className="text-gray-600 mb-3">Pemantauan</p>
         </div>
 
         {/* Right Section */}
-        <div className={styles.rightSection}>
-          <div className={styles.contactUs}>
-            <h3>Contact Us</h3>
-            <p>+1 (999) 888-77-66</p>
-            <p>atharrayyan@gmail.com</p>
+        <div className="w-full">
+          <div className="mb-4">
+            <h3 className="text-[#255245] text-[26px] font-semibold mb-4">Butuh Bantuan?</h3>
+            <p className="text-gray-600 mb-2">rafliafriza90@gmail.com</p>
+            <p className="text-gray-600 mb-10">atharrayyanmuhamd@gmail.com</p>
           </div>
 
-          <div className={styles.location}>
-            <h3>Location</h3>
-            <p>483920, Banda Aceh,</p>
-            <p>Lambhuk, sampang rumah maudy</p>
+          <div>
+            <h3 className="text-[#255245] text-[26px] font-semibold mb-4">Lokasi</h3>
+            <p className="text-gray-600 mb-2"> Banda Aceh,</p>
+            <p className="text-gray-600 mb-3">Jl. Teuku Nyak Arief No.441, Kopelma Darussalam, Kec. Syiah Kuala, Kota Banda Aceh, Aceh 23111</p>
           </div>
         </div>
       </div>
 
       {/* Bottom Bar */}
-      <div className={styles.bottomBar}></div>
+      <div className="mt-14 bg-[#93A26D] py-10 h-10"></div>
     </footer>
   );
 };
