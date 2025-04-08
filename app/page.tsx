@@ -1,5 +1,9 @@
 "use client";
-import HomePage from "@/components/pages/home/Index";
+import dynamic from "next/dynamic";
+const DynamicComponent = dynamic(
+  () => import("../components/pages/home/Index"),
+  { ssr: false }
+);
 export default function Home() {
-  return <HomePage />;
+  return <DynamicComponent />;
 }
