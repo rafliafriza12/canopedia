@@ -1,15 +1,37 @@
 "use client";
+import dynamic from "next/dynamic";
+
+// const HeroSection = dynamic(() => import("../../sections/hero/Index"), {ssr: false});
 import HeroSection from "@/components/sections/hero/Index";
-import Info from "@/components/sections/info/Index";
+const Info = dynamic(() => import("../../sections/info/Index"), { ssr: false });
+// import Info from "@/components/sections/info/Index";
 import ShopSVG from "@/components/svg/ShopSVG";
 import BarSVG from "@/components/svg/BarSVG";
 import InfoLogo from "@/components/svg/InfoLogo";
-import Trivia from "@/components/sections/trivia/Index";
-import Catalog from "@/components/sections/catalog/Index";
-import Sponsor from "@/components/sections/sponsor/Index";
-import Planting from "@/components/sections/planting/Index";
-import Monitoring from "@/components/sections/monitoring/Index";
-import Contact from "@/components/sections/contact/Index";
+const Trivia = dynamic(() => import("../../sections/trivia/Index"), {
+  ssr: false,
+});
+// import Trivia from "@/components/sections/trivia/Index";
+const Catalog = dynamic(() => import("../../sections/catalog/Index"), {
+  ssr: false,
+});
+// import Catalog from "@/components/sections/catalog/Index";
+const Sponsor = dynamic(() => import("../../sections/sponsor/Index"), {
+  ssr: false,
+});
+// import Sponsor from "@/components/sections/sponsor/Index";
+const Planting = dynamic(() => import("../../sections/planting/Index"), {
+  ssr: false,
+});
+// import Planting from "@/components/sections/planting/Index";
+const Monitoring = dynamic(() => import("../../sections/monitoring/Index"), {
+  ssr: false,
+});
+// import Monitoring from "@/components/sections/monitoring/Index";
+const Contact = dynamic(() => import("../../sections/contact/Index"), {
+  ssr: false,
+});
+// import Contact from "@/components/sections/contact/Index";
 const HomePage: React.FC = () => {
   return (
     <div className="w-full px-28 pb-10 flex flex-col items-center gap-7 pt-[110px] relative z-0">
