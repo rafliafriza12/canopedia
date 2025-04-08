@@ -1,3 +1,4 @@
+"use client";
 import ArrowTopRight from "@/components/svg/ArrowTopRight";
 import TreeInfo from "@/components/svg/TreeInfo";
 import SeedInfo from "@/components/svg/SeedInfo";
@@ -49,13 +50,13 @@ const Info: React.FC = () => {
             </p>
           </div>
 
-          <div className=" absolute z-[2] -top-[30%] ">
+          <div className=" absolute z-[2] -top-[30%] hover:scale-[1.05] duration-500">
             <SeedInfo />
           </div>
         </div>
 
         <div className=" w-[29%] h-[529px] flex flex-col justify-between items-center relative z-0 group">
-          <div className="absolute z-[1] bottom-7 group-hover:scale-[1.05] duration-300">
+          <div className="absolute z-[1] bottom-7 group-hover:scale-[1.05] duration-500">
             <TreeInfo />
           </div>
 
