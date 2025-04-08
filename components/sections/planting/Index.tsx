@@ -7,7 +7,10 @@ import StepThree from "@/components/svg/planting/StepThree";
 import StepFour from "@/components/svg/planting/StepFour";
 const Planting: React.FC = () => {
   return (
-    <div className=" w-full flex flex-col items-center gap-20 relative z-0 py-10">
+    <div
+      id="tanam"
+      className=" w-full flex flex-col items-center gap-20 relative z-0 py-10"
+    >
       <div className=" absolute z-[-1] scale-x-[1.26]">
         <DoodleBackground />
       </div>

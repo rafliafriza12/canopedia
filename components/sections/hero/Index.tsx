@@ -8,7 +8,10 @@ import RopeRight from "@/components/svg/RopeRight";
 import Tree from "@/components/svg/Tree";
 const HeroSection: React.FC = () => {
   return (
-    <div className="w-full h-[86vh] bg-transparent flex flex-col justify-center items-center relative z-0">
+    <div
+      id="beranda"
+      className="w-full h-[86vh] bg-transparent flex flex-col justify-center items-center relative z-0"
+    >
       <div className=" absolute left-[20%] top-[15%]">
         <PhotoOneHero />
       </div>
