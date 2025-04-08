@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
           Katalog
         </div>
         <div className="h-[52px] w-[177px] rounded-full bg-[#F3FFD0] flex justify-center items-center hover:bg-[#255245] hover:text-[#F3FFD0] cursor-pointer duration-200">
-          Bank Biji
+          Tanam
         </div>
         <div className="h-[52px] w-[177px] rounded-full bg-[#F3FFD0] flex justify-center items-center hover:bg-[#255245] hover:text-[#F3FFD0] cursor-pointer duration-200">
           Pemantauan
