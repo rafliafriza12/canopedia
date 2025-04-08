@@ -59,7 +59,50 @@ const Trivia: React.FC = () => {
           total jenis pohon di dunia
         </p>
       </div>
-      <div className="absolute bottom-14 right-[6%] scale-[1.3] z-[2] mt-44 w-[395px] h-[343px] rounded-[20px] border-[1px] border-[#A1AEC5] bg-[#878787]/20 backdrop-blur-sm"></div>
+
+      <div className="absolute top-[530px] left-[39%] scale-[1.3] z-[2] mt-44 w-[395px] h-[343px] rounded-[20px] bg-transparent flex flex-col gap-1 px-6 py-12">
+        <div className=" w-full flex flex-col items-start text-[#255245] font-poppins font-extrabold">
+          <h1 className=" text-[28px]">Tanam Masa Depan</h1>
+          <h1 className=" -mt-2 text-[28px]">dari Sebutir Kapsul!?</h1>
+        </div>
+        <p className="w-full font-poppins text-[15px] text-[#255245] text-left">
+          Bayangin kamu bisa menanam pohon langka tanpa cangkul, tanpa ribet,
+          cukup dengan kapsul biodegradable berisi biji-biji lokal asli
+          Indonesia! 🌿
+        </p>
+      </div>
+      <div className="absolute top-[530px] left-[5%] scale-[1.3] z-[2] mt-44 w-[395px] h-[343px] rounded-[20px] bg-transparent flex flex-col gap-1 px-6 py-12">
+        <p className="w-full font-poppins text-[35px] text-[#255245] text-left">
+          "<span className="font-bold">Menanam</span> itu menabung oksigen untuk{" "}
+          <span className="font-bold">kehidupan.</span>"
+        </p>
+      </div>
+      <div className="p-3 absolute flex flex-col items-center justify-center bottom-14 right-[6%] scale-[1.3] z-[2] mt-44 w-[395px] h-[343px] rounded-[20px] border-[1px] border-[#A1AEC5] bg-[#878787]/20 backdrop-blur-sm">
+        <h1 className="-mt-5 text-[55px] font-extrabold gap-3 bg-gradient-to-t from-[#548F7E] to-[#ECF9CB] inline-block text-transparent bg-clip-text">
+          CANOPEDIA
+        </h1>
+
+        <div className="w-full flex flex-col items-center">
+          <h1 className=" text-[#ECF9CB] text-[30px] font-poppins font-bold italic">
+            CANO
+          </h1>
+          <p className="w-[95%] text-center text-[#ECF9CB] text-[15px]">
+            Berasal dari kata <span className="font-bold">"canopy"</span> dalam
+            bahasa Inggris, yang merujuk pada lapisan atas hutan yang dibentuk
+            oleh tajuk atau mahkota pohon-pohon.
+          </p>
+        </div>
+        <div className="w-full flex flex-col items-center">
+          <h1 className=" text-[#ECF9CB] text-[30px] font-poppins font-bold italic">
+            PEDIA
+          </h1>
+          <p className="w-[95%] text-center text-[#ECF9CB] text-[15px]">
+            Berasal dari kata Yunani <span className="font-bold">"paedia"</span>{" "}
+            yang berarti pendidikan atau pengetahuan, sama seperti yang
+            digunakan dalam kata "encyclopedia
+          </p>
+        </div>
+      </div>
 
       <div className=" absolute scale-[1.25] left-24 top-44">
         <TriviaSectionLeft />
