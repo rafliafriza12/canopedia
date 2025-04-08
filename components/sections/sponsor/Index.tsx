@@ -1,3 +1,4 @@
+"use client";
 import Marquee from "react-fast-marquee";
 import Logo from "@/components/svg/Logo";
 import InforClub from "@/components/svg/InfoClub";

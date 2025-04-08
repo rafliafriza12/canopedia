@@ -1,3 +1,4 @@
+"use client";
 import DoodleBackground from "@/components/svg/DoodleBackground";
 import PlantingTitle from "@/components/svg/planting/Title";
 import StepOne from "@/components/svg/planting/StepOne";

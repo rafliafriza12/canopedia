@@ -1,3 +1,4 @@
+"use client";
 import CatalogTitle from "@/components/svg/CatalogTitle";
 import CatalogCard from "@/components/card/CatalogCard";
 const Catalog: React.FC = () => {

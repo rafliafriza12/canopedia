@@ -1,3 +1,4 @@
+"use client";
 import MapSVG from "@/components/svg/Map";
 import GridBackground2 from "@/components/svg/GridBackround2";
 const Monitoring: React.FC = () => {

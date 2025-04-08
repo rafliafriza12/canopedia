@@ -1,3 +1,4 @@
+"use client";
 import TriviaSectionLeft from "@/components/svg/TriviaSectionLeft";
 import TriviaSectionRight from "@/components/svg/TriviaSectionRight";
 const Trivia: React.FC = () => {
