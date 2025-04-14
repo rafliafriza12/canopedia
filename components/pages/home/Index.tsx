@@ -1,5 +1,6 @@
 "use client";
 import dynamic from "next/dynamic";
+import { IsDesktop } from "@/hooks";
 
 // const HeroSection = dynamic(() => import("../../sections/hero/Index"), {ssr: false});
 import HeroSection from "@/components/sections/hero/Index";
@@ -33,6 +34,9 @@ const Contact = dynamic(() => import("../../sections/contact/Index"), {
 });
 // import Contact from "@/components/sections/contact/Index";
 const HomePage: React.FC = () => {
+  const isDesktop = IsDesktop();
+
+  if (!isDesktop) return null;
   return (
     <div className="w-full px-28 pb-10 flex flex-col items-center gap-7 pt-[110px] relative z-0">
       <HeroSection />
